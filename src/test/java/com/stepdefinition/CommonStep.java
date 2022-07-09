@@ -25,7 +25,9 @@ public class CommonStep extends BaseClass {
 	public void userShouldVerifyWelcomeMessageAfterLogin(String string) {
 		//Assert.assertTrue(pom.getLoginPage().loginErrorMsg().contains(string));
 		//System.out.println(pom.getSearchHotelPage().helloRamMsg());
+		
 		Assert.assertTrue(pom.getSearchHotelPage().helloRamMsg().contains(string));
+		System.out.println("*****");
 	}
 
 }
